@@ -37,8 +37,8 @@
   const MERGE_PAD = 0.8;     // 合成判定的接触容差（px）
 
   /* —— Q 弹手感 —— */
-  const RESTITUTION      = 0.38;  // 球与球之间的弹性
-  const WALL_RESTITUTION = 0.45;  // 撞墙 / 撞地面的弹性
+  const RESTITUTION      = 0.50;  // 球与球之间的弹性
+  const WALL_RESTITUTION = 0.60;  // 撞墙 / 撞地面的弹性
   const REST_THRESHOLD   = 55;    // 撞击速度低于此值不反弹（保证堆叠稳、不抖）
   const FRICTION         = 0.955; // 接触时的切向摩擦（每个子步）
   const SQUASH_DECAY     = 9;     // 挤压回弹速度
